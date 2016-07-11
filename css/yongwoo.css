@@ -1,0 +1,109 @@
+/* CSS Document */
+/*-------------------------------------------------
+Looking at the reference of other web page so clas 
+system works. 
+-------------------------------------------------*/
+
+
+.pic {
+  margin:3px; text-align:center;width:100%
+  display: block;
+  padding: 4px;
+  width: 940px;
+  line-height: 1;
+ /*  border: 1px solid #ddd;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container p img, .pic, .html5-video-player, .ytp-thumbnail, .img-responsive, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 600px;
+    margin:auto;
+    
+}
+.img-responsive, #cv, iframe {
+    background-color: black;
+    border: 2.5px solid #ffc01d !important;
+    border-radius: 2px;
+    overflow: hidden !important;
+    
+/*-------------------------------------------------
+jumbotron is a little msg box for layout 
+-------------------------------------------------*/    
+}
+.jumbotron {
+    background-color: #9d9c9c;
+    border-color: #facd11;
+    border: 3px outset;
+    padding: 10px 5px;
+    margin: 30px;
+
+}
+.container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.jumbotron, .container-fluid .jumbotron {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+    font-family: 'Noto Sans', cursive;
+    font-weight: 900;
+    text-align: center
+}
+
+.jumbotron h2 {
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: -1px 0 #facd11, 0 1px #facd11, 1px 0 #facd11, 0 -1px #facd11;
+    text-align: center
+}
+
+.jumbotron h3 {
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: -1px 0 #facd11, 0 1px #facd11, 1px 0 #facd11, 0 -1px #facd11;
+}
+
+.jumbotron h4 {
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: -1px 0 #facd11, 0 1px #facd11, 1px 0 #facd11, 0 -1px #facd11;
+}
+
+.jumbotron p {
+    font-size: 15px;
+}
+
+a {
+    color: #ffc01d;
+}
+
+/*-------------------------------------------------
+b href for the colour change when the cursor is near. 
+-------------------------------------------------*/
+
+
+b:hover,
+b:focus {
+    color: black;
+    text-shadow: -1px 0 #ffc01d, 0 1px #ffc01d, 1px 0 #ffc01d, 0 -1px #ffc01d;    
+}
+.services {
+    
+}
